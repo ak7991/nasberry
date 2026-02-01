@@ -337,6 +337,7 @@ services:
       - homepage.widget.url=http://gluetun:8080
       - homepage.widget.username=${QBITTORRENT_USERNAME}
       - homepage.widget.password=${QBITTORRENT_PASSWORD}
+<<<<<<< HEAD
   vpn:
     image: ghcr.io/qdm12/gluetun:latest
     container_name: vpn
