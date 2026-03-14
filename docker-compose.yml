@@ -337,9 +337,9 @@ services:
       - homepage.widget.url=http://gluetun:8080
       - homepage.widget.username=${QBITTORRENT_USERNAME}
       - homepage.widget.password=${QBITTORRENT_PASSWORD}
-  gluetun:
+  vpn:
     image: ghcr.io/qdm12/gluetun:latest
-    container_name: gluetun
+    container_name: vpn
     restart: unless-stopped
     cap_add:
       - NET_ADMIN
@@ -348,8 +348,8 @@ services:
     sysctls:
       - net.ipv6.conf.all.disable_ipv6=1
     environment:
-      - VPN_SERVICE_PROVIDER=protonvpn  # Specifies ProtonVPN as the VPN provider
-      - VPN_TYPE=wireguard  # Uses WireGuard as the VPN protocol
+      - VPN_SERVICE_PROVIDER=protonvpn  # Change to your desired VPN provider
+      - VPN_TYPE=wireguard  # Uses WireGuard as the protocol; can change to openvpn
       - WIREGUARD_PRIVATE_KEY=${WIREGUARD_PRIVATE_KEY}
       - SERVER_COUNTRIES=${SERVER_COUNTRIES}
       - SERVER_CITIES=${SERVER_CITIES}
