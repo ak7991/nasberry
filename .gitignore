@@ -24,5 +24,6 @@ docker-compose.override.yml
 /cleanuparr
 /cross-seed
 /autobrr
+/gluetun-config/servers.json
 !/cleanuparr/blacklist.json
 !/cleanuparr/logs/.gitkeep
