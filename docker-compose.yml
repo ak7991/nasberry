@@ -175,10 +175,10 @@ services:
       retries: 10
     labels:
       - traefik.enable=true
-      - traefik.http.routers.seerr.rule=(Host(`${SEERR_HOSTNAME}`))
-      - traefik.http.routers.seerr.tls=true
-      - traefik.http.routers.seerr.tls.certresolver=myresolver
-      - traefik.http.services.seerr.loadbalancer.server.port=5055
+      - traefik.http.routers.jellyseerr.rule=(Host(`${JELLYSEERR_HOSTNAME}`))
+      - traefik.http.routers.jellyseerr.tls=true
+      # - traefik.http.routers.jellyseerr.tls.certresolver=myresolver
+      - traefik.http.services.jellyseerr.loadbalancer.server.port=5055
       - homepage.group=Media
       - homepage.name=Seerr
       - homepage.icon=jellyseerr.png
@@ -337,7 +337,6 @@ services:
       - homepage.widget.url=http://gluetun:8080
       - homepage.widget.username=${QBITTORRENT_USERNAME}
       - homepage.widget.password=${QBITTORRENT_PASSWORD}
-<<<<<<< HEAD
   vpn:
     image: ghcr.io/qdm12/gluetun:latest
     container_name: vpn
