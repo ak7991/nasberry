@@ -182,17 +182,17 @@ services:
       retries: 10
     labels:
       - traefik.enable=true
-      - traefik.http.routers.jellyseerr.rule=(Host(`${JELLYSEERR_HOSTNAME}`))
+      - traefik.http.routers.jellyseerr.rule=(Host(`${SEERR_HOSTNAME}`))
       # - traefik.http.routers.jellyseerr.tls=true
       # - traefik.http.routers.jellyseerr.tls.certresolver=myresolver
-      - traefik.http.services.jellyseerr.loadbalancer.server.port=5055
+      - traefik.http.services.seerr.loadbalancer.server.port=5055
       - homepage.group=Media
       - homepage.name=Seerr
-      - homepage.icon=jellyseerr.png
+      - homepage.icon=seerr.png
       - homepage.href=https://${SEERR_HOSTNAME}
       - homepage.description=Content Recommendations and Request Management
       - homepage.weight=3
-      - homepage.widget.type=jellyseerr
+      - homepage.widget.type=seerr
       - homepage.widget.url=http://seerr:5055
       - homepage.widget.key=${SEERR_API_KEY}
   prowlarr:
@@ -451,7 +451,7 @@ services:
     restart: always
     labels:
       - traefik.enable=true
-      - traefik.http.routers.sabnzbd.rule=(Host(`${HOSTNAME}`) && PathPrefix(`/sabnzbd`) || PathPrefix(`/sabnzbd`))
+      - traefik.http.routers.sabnzbd.rule=(PathPrefix(`/sabnzbd`))
       # - traefik.http.routers.sabnzbd.tls=true
       # - traefik.http.routers.sabnzbd.tls.certresolver=myresolver
       - traefik.http.services.sabnzbd.loadbalancer.server.port=8080
