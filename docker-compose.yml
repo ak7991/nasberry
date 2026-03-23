@@ -206,7 +206,7 @@ services:
       - ${CONFIG_ROOT:-.}/prowlarr:/config
     restart: always
     healthcheck:
-      test: ["CMD", "curl", "--fail", "http://127.0.0.1:9696/prowlarr/ping"]
+      test: ["CMD", "curl", "--fail", "http://127.0.0.1:9696/prowlarr/ping", "https://google.com"]
       interval: 1m
       retries: 10
     labels:
@@ -225,6 +225,10 @@ services:
       - homepage.widget.type=prowlarr
       - homepage.widget.url=http://prowlarr:9696/prowlarr
       - homepage.widget.key=${PROWLARR_API_KEY}
+    network_mode: "service:vpn"
+    depends_on:
+      vpn:
+        condition: service_healthy
   suggestarr:
     image: ciuse99/suggestarr:latest
     container_name: suggestarr
@@ -255,7 +259,7 @@ services:
     image: 21hsmw/flaresolverr:nodriver
     container_name: flaresolverr
     restart: always
-      environment:
+    environment:
       - LOG_LEVEL=${LOG_LEVEL:-info}
       - LOG_HTML=${LOG_HTML:-false}
       - CAPTCHA_SOLVER=${CAPTCHA_SOLVER:-none}
