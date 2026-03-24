@@ -69,6 +69,9 @@ services:
       - homepage.widget.type=sonarr
       - homepage.widget.url=http://${BASE_HOSTNAME}/sonarr
       - homepage.widget.key=${SONARR_API_KEY}
+    networks:
+      - default
+      - vpn
   radarr:
     image: lscr.io/linuxserver/radarr
     container_name: radarr
@@ -271,6 +274,10 @@ services:
       - traefik.http.services.flaresolverr.loadbalancer.server.port=8191
     profiles:
       - flaresolverr
+    network_mode: "service:vpn"
+    depends_on:
+      vpn:
+        condition: service_healthy
   autobrr:
     container_name: autobrr
     image: ghcr.io/autobrr/autobrr:latest
@@ -587,3 +594,5 @@ services:
 networks:
   default:
     name: docker-compose-nas
+  vpn:
+    external: true
