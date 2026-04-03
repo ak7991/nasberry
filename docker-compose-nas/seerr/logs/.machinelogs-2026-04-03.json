@@ -1,0 +1,27 @@
+{"level":"info","message":"Commit Tag: 94a70bb5fc9a4486857071a6fc048c8081fa7ca9","timestamp":"2026-04-03T13:27:39.327Z"}
+{"level":"info","message":"Starting Seerr version 3.1.0","timestamp":"2026-04-03T13:27:40.320Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0001_migrate_hostname.js'...","timestamp":"2026-04-03T13:27:41.999Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0002_migrate_apitokens.js'...","timestamp":"2026-04-03T13:27:42.002Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0003_emby_media_server_type.js'...","timestamp":"2026-04-03T13:27:42.004Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0004_migrate_region_setting.js'...","timestamp":"2026-04-03T13:27:42.005Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0005_migrate_network_settings.js'...","timestamp":"2026-04-03T13:27:42.007Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0006_remove_lunasea.js'...","timestamp":"2026-04-03T13:27:42.008Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0007_migrate_arr_tags.js'...","timestamp":"2026-04-03T13:27:42.010Z"}
+{"label":"Settings Migrator","level":"debug","message":"Migration '0007_migrate_arr_tags.js' has been applied.","timestamp":"2026-04-03T13:27:42.016Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0008_migrate_blacklist_to_blocklist.js'...","timestamp":"2026-04-03T13:27:42.017Z"}
+{"label":"Settings Migrator","level":"debug","message":"Migration '0008_migrate_blacklist_to_blocklist.js' has been applied.","timestamp":"2026-04-03T13:27:42.018Z"}
+{"label":"Notifications","level":"info","message":"Registered notification agents","timestamp":"2026-04-03T13:27:42.021Z"}
+{"label":"Server","level":"info","message":"Skipping starting the scheduled jobs as we have no Plex/Jellyfin/Emby servers setup yet","timestamp":"2026-04-03T13:27:42.023Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":0,"type":1},"timestamp":"2026-04-03T13:27:42.026Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":1,"type":2},"timestamp":"2026-04-03T13:27:42.058Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":2,"type":3},"timestamp":"2026-04-03T13:27:42.094Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":3,"type":4},"timestamp":"2026-04-03T13:27:42.131Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":4,"type":5},"timestamp":"2026-04-03T13:27:42.154Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":5,"type":6},"timestamp":"2026-04-03T13:27:42.187Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":6,"type":7},"timestamp":"2026-04-03T13:27:42.217Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":7,"type":8},"timestamp":"2026-04-03T13:27:42.239Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":8,"type":9},"timestamp":"2026-04-03T13:27:42.261Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":9,"type":10},"timestamp":"2026-04-03T13:27:42.270Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":10,"type":11},"timestamp":"2026-04-03T13:27:42.279Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":11,"type":12},"timestamp":"2026-04-03T13:27:42.291Z"}
+{"label":"Server","level":"info","message":"Server ready on port 5055","timestamp":"2026-04-03T13:27:42.459Z"}

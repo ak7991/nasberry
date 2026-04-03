@@ -89,6 +89,5 @@ services:
     restart: always
     profiles:
       - immich-backup
-
 volumes:
   immich-model-cache:

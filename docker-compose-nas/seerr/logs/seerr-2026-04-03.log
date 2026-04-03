@@ -1,0 +1,27 @@
+2026-04-03T13:27:39.327Z [info]: Commit Tag: 94a70bb5fc9a4486857071a6fc048c8081fa7ca9 
+2026-04-03T13:27:40.320Z [info]: Starting Seerr version 3.1.0 
+2026-04-03T13:27:41.999Z [debug][Settings Migrator]: Checking migration '0001_migrate_hostname.js'... 
+2026-04-03T13:27:42.002Z [debug][Settings Migrator]: Checking migration '0002_migrate_apitokens.js'... 
+2026-04-03T13:27:42.004Z [debug][Settings Migrator]: Checking migration '0003_emby_media_server_type.js'... 
+2026-04-03T13:27:42.005Z [debug][Settings Migrator]: Checking migration '0004_migrate_region_setting.js'... 
+2026-04-03T13:27:42.007Z [debug][Settings Migrator]: Checking migration '0005_migrate_network_settings.js'... 
+2026-04-03T13:27:42.008Z [debug][Settings Migrator]: Checking migration '0006_remove_lunasea.js'... 
+2026-04-03T13:27:42.010Z [debug][Settings Migrator]: Checking migration '0007_migrate_arr_tags.js'... 
+2026-04-03T13:27:42.016Z [debug][Settings Migrator]: Migration '0007_migrate_arr_tags.js' has been applied. 
+2026-04-03T13:27:42.017Z [debug][Settings Migrator]: Checking migration '0008_migrate_blacklist_to_blocklist.js'... 
+2026-04-03T13:27:42.018Z [debug][Settings Migrator]: Migration '0008_migrate_blacklist_to_blocklist.js' has been applied. 
+2026-04-03T13:27:42.021Z [info][Notifications]: Registered notification agents 
+2026-04-03T13:27:42.023Z [info][Server]: Skipping starting the scheduled jobs as we have no Plex/Jellyfin/Emby servers setup yet 
+2026-04-03T13:27:42.026Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":1,"enabled":true,"isBuiltIn":true,"order":0}}
+2026-04-03T13:27:42.058Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":2,"enabled":true,"isBuiltIn":true,"order":1}}
+2026-04-03T13:27:42.094Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":3,"enabled":true,"isBuiltIn":true,"order":2}}
+2026-04-03T13:27:42.131Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":4,"enabled":true,"isBuiltIn":true,"order":3}}
+2026-04-03T13:27:42.154Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":5,"enabled":true,"isBuiltIn":true,"order":4}}
+2026-04-03T13:27:42.187Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":6,"enabled":true,"isBuiltIn":true,"order":5}}
+2026-04-03T13:27:42.217Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":7,"enabled":true,"isBuiltIn":true,"order":6}}
+2026-04-03T13:27:42.239Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":8,"enabled":true,"isBuiltIn":true,"order":7}}
+2026-04-03T13:27:42.261Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":9,"enabled":true,"isBuiltIn":true,"order":8}}
+2026-04-03T13:27:42.270Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":10,"enabled":true,"isBuiltIn":true,"order":9}}
+2026-04-03T13:27:42.279Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":11,"enabled":true,"isBuiltIn":true,"order":10}}
+2026-04-03T13:27:42.291Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":12,"enabled":true,"isBuiltIn":true,"order":11}}
+2026-04-03T13:27:42.459Z [info][Server]: Server ready on port 5055 
